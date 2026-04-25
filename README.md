@@ -9,23 +9,27 @@
 ##  OOP Principų analizė (Analysis)
 Projekte pritaikyti visi 4 OOP ramsčiai:
 * **Abstrakcija:** Klasė `Player` yra abstrakti, nurodanti bendrą elgseną visiems žaidėjams.
-* 
+
 ![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/abstrakcija.png?raw=true)
 * **Paveldėjimas:** `HumanPlayer` ir `BotPlayer` paveldi iš `Player`.
 
 ![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/paveldejimas.png?raw=true)
 * **Polimorfizmas:** Metodas `get_move` veikia skirtingai žmogui ir botui.
-![image alt](путь_к_файлу)
+
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/polimorfizmas.png?raw=true)
 * **Enkapsuliacija:** Žaidimo lenta `__board` yra privati, pasiekiama tik per logikos metodus.
-![image alt](путь_к_файлу)
+
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/enkapsuliacija.png?raw=true)
 ## 🛠 Projektavimo šablonas (Design Pattern)
 Naudojamas **Factory Method** (`PlayerFactory`). Tai leidžia lanksčiai kurti žaidėjus priklausomai nuo vartotojo pasirinkto režimo (Žmogus vs Žmogus arba Žmogus vs Botas).
-![image alt](путь_к_файлу)
+
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/patternas.png?raw=true)
 
 ##  Objektų ryšiai: Kompozicija (Composition)
 Projekte pritaikyta **kompozicijos** sąvoka, kuri užtikrina stiprų ryšį tarp vartotojo sąsajos ir žaidimo logikos.
 * **Kodėl tai svarbu:** Logikos objektas yra neatsiejama programos dalis. Jis sukuriamas kartu su programa ir sunaikinamas ją uždarius. Tai leidžia saugiai izoliuoti žaidimo būseną nuo vizualinių elementų.
-![image alt](путь_к_файлу)
+
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/kompozicija.png?raw=true)
 
 ##  Darbas su failais (I/O)
 Programa atitinka reikalavimą dirbti su išoriniais duomenų šaltiniais.
@@ -33,7 +37,8 @@ Programa atitinka reikalavimą dirbti su išoriniais duomenų šaltiniais.
     2. Naudojamas `'a'` (append) režimas, kuris leidžia pridėti naujus įrašus į failo pabaigą, neprarandant senos informacijos.
     3. Įrašoma partijos pabaigos data, laikas ir rezultatas.
 * **Rezultatas:** Sukuriamas failas, kuriame saugoma visa žaidėjo istorija, o tai atitinka IO (Input/Output) vertinimo kriterijų.
-![image alt](путь_к_файлу)
+
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/darbassufailais.png?raw=true)
 
 
 ##  Testavimo rezultatai (Results)
@@ -43,7 +48,8 @@ Visi funkciniai testai sėkmingai išlaikyti. Testuojama:
 - Langelių užimtumo kontrolė.
 
 **Rezultatas:** 
-![image alt](путь_к_файлу)
+
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/testavimorezultatas.png?raw=true)
 
 ##  Išvados (Conclusions)
 
