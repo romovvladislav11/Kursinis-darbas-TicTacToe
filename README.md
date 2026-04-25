@@ -11,7 +11,8 @@ Projekte pritaikyti visi 4 OOP ramsčiai:
 * **Abstrakcija:** Klasė `Player` yra abstrakti, nurodanti bendrą elgseną visiems žaidėjams.
 ![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/abstrakcija.png?raw=true)
 * **Paveldėjimas:** `HumanPlayer` ir `BotPlayer` paveldi iš `Player`.
-![image alt](путь_к_файлу)
+
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/paveldejimas.png?raw=true)
 * **Polimorfizmas:** Metodas `get_move` veikia skirtingai žmogui ir botui.
 ![image alt](путь_к_файлу)
 * **Enkapsuliacija:** Žaidimo lenta `__board` yra privati, pasiekiama tik per logikos metodus.
