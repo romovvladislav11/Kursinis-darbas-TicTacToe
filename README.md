@@ -9,7 +9,7 @@
 ##  OOP Principų analizė (Analysis)
 Projekte pritaikyti visi 4 OOP ramsčiai:
 * **Abstrakcija:** Klasė `Player` yra abstrakti, nurodanti bendrą elgseną visiems žaidėjams.
-![image alt](путь_к_файлу)
+![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/abstrakcija.png?raw=true)
 * **Paveldėjimas:** `HumanPlayer` ir `BotPlayer` paveldi iš `Player`.
 ![image alt](путь_к_файлу)
 * **Polimorfizmas:** Metodas `get_move` veikia skirtingai žmogui ir botui.
