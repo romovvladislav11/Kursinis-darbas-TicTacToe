@@ -2,11 +2,11 @@
 
 Šis kursinis darbas yra žaidimo „Kryžiukai–nuliukai“ realizacija, sukurta naudojant Python ir objektinio programavimo (OOP) principus.
 
-## 🚀 Kaip paleisti
+##  Kaip paleisti
 1. Pagrindinis žaidimas: `python game.py`
 2. Testų paleidimas: `python test_game.py`
 
-## 📊 OOP Principų analizė (Analysis)
+##  OOP Principų analizė (Analysis)
 Projekte pritaikyti visi 4 OOP ramsčiai:
 * **Abstrakcija:** Klasė `Player` yra abstrakti, nurodanti bendrą elgseną visiems žaidėjams.
 ![image alt](путь_к_файлу)
@@ -20,12 +20,12 @@ Projekte pritaikyti visi 4 OOP ramsčiai:
 Naudojamas **Factory Method** (`PlayerFactory`). Tai leidžia lanksčiai kurti žaidėjus priklausomai nuo vartotojo pasirinkto režimo (Žmogus vs Žmogus arba Žmogus vs Botas).
 ![image alt](путь_к_файлу)
 
-## 🧩 Objektų ryšiai: Kompozicija (Composition)
+##  Objektų ryšiai: Kompozicija (Composition)
 Projekte pritaikyta **kompozicijos** sąvoka, kuri užtikrina stiprų ryšį tarp vartotojo sąsajos ir žaidimo logikos.
 * **Kodėl tai svarbu:** Logikos objektas yra neatsiejama programos dalis. Jis sukuriamas kartu su programa ir sunaikinamas ją uždarius. Tai leidžia saugiai izoliuoti žaidimo būseną nuo vizualinių elementų.
 ![image alt](путь_к_файлу)
 
-## 💾 Darbas su failais (I/O)
+##  Darbas su failais (I/O)
 Programa atitinka reikalavimą dirbti su išoriniais duomenų šaltiniais.
 * **Procesas:** 1. Pasibaigus žaidimui (laimėjimas arba lygiosios), sistema atidaro failą.
     2. Naudojamas `'a'` (append) režimas, kuris leidžia pridėti naujus įrašus į failo pabaigą, neprarandant senos informacijos.
@@ -34,7 +34,7 @@ Programa atitinka reikalavimą dirbti su išoriniais duomenų šaltiniais.
 ![image alt](путь_к_файлу)
 
 
-## 🧪 Testavimo rezultatai (Results)
+##  Testavimo rezultatai (Results)
 Visi funkciniai testai sėkmingai išlaikyti. Testuojama:
 - Pergalės sąlygos (horizontalės, vertikalės, įstrižainės).
 - Lygiosios.
@@ -43,7 +43,7 @@ Visi funkciniai testai sėkmingai išlaikyti. Testuojama:
 **Rezultatas:** 
 ![image alt](путь_к_файлу)
 
-## 📝 Išvados (Conclusions)
+##  Išvados (Conclusions)
 
 Atliktas darbas leido praktiškai pritaikyti ir įtvirtinti šias programinės įrangos kūrimo žinias:
 
