@@ -20,7 +20,7 @@ Projekte pritaikyti visi 4 OOP ramsčiai:
 * **Enkapsuliacija:** Žaidimo lenta `__board` yra privati, pasiekiama tik per logikos metodus.
 
 ![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/enkapsuliacija.png?raw=true)
-## 🛠 Projektavimo šablonas (Design Pattern)
+##  Projektavimo šablonas (Design Pattern)
 Naudojamas **Factory Method** (`PlayerFactory`). Tai leidžia lanksčiai kurti žaidėjus priklausomai nuo vartotojo pasirinkto režimo (Žmogus vs Žmogus arba Žmogus vs Botas).
 
 ![image alt](https://github.com/romovvladislav11/Kursinis-darbas-TicTacToe/blob/main/screenshots/patternas.png?raw=true)
